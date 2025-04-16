@@ -7,7 +7,7 @@ public class Mai {
    System.out.println("***");
    System.out.println("***");
    System.out.println("*");
-   String[] tree = {"*" "***" "***" "*"};
+   String[] tree = {"*" +"***"+ "***"+ "*"};
    for (String line : tree){
        System.out.println(line);
    }
