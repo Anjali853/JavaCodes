@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class arrayinput4java {
+public class arrayinputjava {
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of arr");
