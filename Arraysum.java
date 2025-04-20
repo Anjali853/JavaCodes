@@ -6,7 +6,7 @@ public class Arraysum {
         for(int i=0;i<arr1.length;i++){
             sum[i]=arr1[i]+arr2[i];
         }
-        for (int i=0;)
+        for (int i=0;);
     }
 
 }
