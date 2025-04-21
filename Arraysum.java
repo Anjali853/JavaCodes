@@ -1,12 +1,16 @@
 public class Arraysum {
     public static void main(String[] args) {
-        int[] arr1={1,2,3,4};
-        int[] arr2={2,3,4,5};
-        int[] sum =new int[arr1.length];
+        int[][] arr1={{1,2,3,4,5}, {1,2,3,4,5},{1,2,3,4,5}};
+        int sum=0;
+        
         for(int i=0;i<arr1.length;i++){
-            sum[i]=arr1[i]+arr2[i];
+            for(int j=0; j<arr1[i].length; j++){
+                sum+=arr1[i][j];
+            }
+            
         }
-        for (int i=0;);
+       
+    System.out.println(sum);
     }
-
+   
 }
