@@ -1,11 +1,16 @@
-public class problem{
+   import java.util.Scanner;
+   
+   public class problem{
     public static void main(String args[]){
-        int n= 4;
-        for(int i=n; i>=1; i--){
-            for(int j=1; j<=i; j++){
-                System.out.print("*");
-            }
-            System.out.println();
+        Scanner in=new
+        Scanner(System.in);
+        System.err.println("enter an integer");
+        int k= in.nextInt();
+        if (k%2==0){
+            System.err.println("even");
+        }else{
+            System.out.println("odd");
         }
+        
     }
-}
+} 
