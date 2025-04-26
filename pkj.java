@@ -7,9 +7,10 @@ public class pkj {
 
         }
         for(int k=0;k<arr.length;k++){
-            for(int j=0;j<arr[k].length);
-            C(k[i][j]);
+            for(int j=0;j<arr[k].length;j++) {
+            System.out.println(arr[k][j]);
         }
     }
     
+}
 }

@@ -5,12 +5,12 @@ public class compare {
         int[] arr1= {1,2,3};
         int[] arr2= {2,4,6};
 
-        boolean Equal = java.util.Array.equal(arr1.arr2);
+        boolean isEqual = java.util.Arrays.equals(arr1,arr2);
 
-        if (isEqual){
-         System.out.println(arr1 equals(arr1, arr2));
+        if (isEqual) {
+         System.out.println("Arrays are equal");
         } else {
-        System.out.println(arr2 equals(arr1, arr2)); 
+        System.out.println("Arrays are not equal"); 
     }
 }
 
