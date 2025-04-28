@@ -1,9 +1,12 @@
 public class stringBuilder{
     public static void main(String[] args) {
-       // String name = new String("anjali");
-       String name = "anjali";
-       System.out.print("The name is: ");
-        System.out.println(name);
+        StringBuilder sb = new StringBuilder("anjali");
+
+       System.out.print(sb);
+    
+        System.out.println(sb.charAt(0));
+        sb.setCharAt(0,'R');
+        System.out.println(sb);
 
     }
 }  
