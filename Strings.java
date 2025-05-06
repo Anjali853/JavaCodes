@@ -6,12 +6,12 @@ public class Strings {
         //concatenation
         String firstName = "anjali";
         String lastName = "choudhary";
-        String fullname = firstName + "@" + lastName;
+        String fullname = firstName + lastName;
         System.out.println(fullname.length());
 
 
         for(int i=0; i<fullname.length(); i++){
-            System.out.println(fullname.charAt(i));
+            System.out.print(fullname.charAt(i));
         }
 
     }

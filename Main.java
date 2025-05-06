@@ -1,31 +1,31 @@
 
 class Animal {
     void eat() {
-        System.out.println("text");
+        System.out.println("This animal eats food.");
     }
 }
 
-
+// Derived class (inherits from Animal)
 class Dog extends Animal {
     void bark() {
-        System.out.println("text");
+        System.out.println("The dog barks.");
     }
 }
 
 // Derived class (inherits from Dog)
 class Puppy extends Dog {
     void weep() {
-        System.out.println("text");
+        System.out.println("The puppy weeps.");
     }
 }
 
-public class Inheritance6 {
+public class Main {
     public static void main(String[] args) {
         Puppy myPuppy = new Puppy();
         
-        myPuppy.weep(); 
+        
         myPuppy.eat();   
         myPuppy.bark();  
-       
+        myPuppy.weep();  
     }
 }
