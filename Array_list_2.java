@@ -1,7 +1,7 @@
 import java.util.ArrayList;
-import java.util.Collection;
+
 import java.util.Collections;
-public class Arrat_list_2 {
+public class Array_list_2 {
 
     public static void main(String[] args){
         ArrayList<String> arr=new ArrayList<>();
