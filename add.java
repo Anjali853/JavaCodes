@@ -5,7 +5,8 @@ public class add{
 
         obj.sum(5, 10);
         obj.sum(3, 7, 2);
-        //obj.sum(4, 5, 3.2);
+        //
+        obj.sum(4, 5, 3.2);
 
     }
 

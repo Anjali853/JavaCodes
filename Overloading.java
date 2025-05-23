@@ -1,5 +1,5 @@
 class parent{
-    void sum(int a);{
+    void sum(int a){
         System.out.println("my name is anjaliii"+a);
     }
 
@@ -17,6 +17,6 @@ class Overloading{
         parent obj =new parent();
         obj.sum(420);
         obj.sum(420,20);
-        obj,sum(420,20,40);
+        obj.sum(420,20,40);
     }
 }

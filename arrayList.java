@@ -8,6 +8,8 @@ public class arrayList{
         arr.add("sneha");
         arr.add("friends");
         arr.set(3,"yoyo");
+       //gi arr.clear();
+        arr.remove(2);
         System.out.println(arr);
 
     }

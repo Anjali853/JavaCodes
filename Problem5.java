@@ -12,16 +12,10 @@ class Triangle extends Shape {
 
 class EquilateralTriangle extends Triangle{
     public static void main(String[] args) {
-        System.out.println(1/2*l*h);
-    }
-}
-
-
-
-
-
-public class Problem5{
-    public static void main(String[] args) {
         
     }
 }
+
+
+
+

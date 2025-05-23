@@ -12,18 +12,32 @@
 // }
 
 
+// public class exception2{
+//     public static void main(String[] args) {
+//         String str= null ;
+//         System.out.println(str.toUpperCase());
+//         try {
+            
+//         } catch (Exception e) {
+//             System.out.println(e);
+        
+//         }
+//     }
+// }
+
+
+
+
 public class exception2{
     public static void main(String[] args) {
-        String str= null ;
-        System.out.println(str.toUpperCase());
+        int[]arr= {1,2,3};
         try {
-            
+            System.out.println(arr[5]);
         } catch (Exception e) {
-            System.out.println(e);
-        
+            System.out.println("Exception occurred:" +e);
         }
+        System.out.println("End of program");
     }
 }
-
 
 
