@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class arrayList{
+public class ArrayList2{
     public static void main(String[] args){
         ArrayList<String> arr=new ArrayList<>();
         arr.add("anjali");
@@ -7,9 +7,9 @@ public class arrayList{
         arr.add("disha");
         arr.add("sneha");
         arr.add("friends");
-        arr.set(3,"yoyo");
+        arr.set(2,"priyanshi");
        //gi arr.clear();
-        arr.remove(2);
+        arr.remove(0);
         System.out.println(arr);
 
 
