@@ -34,6 +34,7 @@ public class multithreading{
         }
         obj.sendSignal();
     });
+    
 
         consumer.start();
         producer.start();
