@@ -15,7 +15,7 @@ public class Filter7{
        int sumOfOdds = number.stream().filter(n ->n % 2 != 0).reduce(0,(a,b)->a + b);
 
       System.out.println(sumOfOdds);
-    //  System.out.println("Filtered odd Number:" + oddnumber);
+ 
 
 
         
