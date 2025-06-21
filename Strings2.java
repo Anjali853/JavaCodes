@@ -13,6 +13,6 @@ public class Strings2 {
         }else {
             System.out.println("String are not Equal");
         }
-        if
+    
     }
 }
