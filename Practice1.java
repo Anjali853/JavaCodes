@@ -108,32 +108,32 @@
 
 //if an a element is 0,set its entire riw and column to 0.
 
-//public class Practice1{
-  //  public static void main(String[] args) {
+// public class Practice1{
+//    public static void main(String[] args) {
 
-   //   int[][] matrix = {
-   //          {1, 2, 3},
-   //          {4, 0, 6},
-   //          {7, 8, 9}
-   //       };
+//      int[][] matrix = {
+//             {1, 2, 3},
+//             {4, 0, 6},
+//             {7, 8, 9}
+//          };
 
-   //       int rows = matrix.length;
-   //       int n = matrix[0].length;
+//          int rows = matrix.length;
+//          int cols = matrix[0].length;
          
-   //       boolean[] row = new boolean[rows];
-   //       boolean[] col =  new boolean[n];
+//          boolean[] row = new boolean[rows];
+//          boolean[] col =  new boolean[cols];
 
-   //       for(int i = 0; i < rows; i++){
-   //          for(int j = 0; j < n; j++){
-   //             if(matrix[i][j] == 0){
-   //                row[i] = true;
-   //                col[j] = true;
-   //             }
-   //          }
-   //       }
+//          for(int i = 0; i < rows; i++){
+//             for(int j = 0; j < cols; j++){
+//                if(matrix[i][j] == 0){
+//                   row[1] = true;
+//                   col[1] = true;
+//                }
+//             }
+//          }
 
-   //          for(int i = 0; i < rows; i++){
-         //    for(int j = 0; j < n; j++){
+         //    for(int i = 0; i < rows; i++){
+         //    for(int j = 0; j < cols; j++){
          //       if(row[i] || col[j]){
          //          matrix[i][j] = 0;
          //       }
@@ -141,7 +141,7 @@
          // }
 
          //    for(int i = 0; i < rows; i++){
-         //    for(int j = 0; j < n; j++){
+         //    for(int j = 0; j < cols; j++){
          //       System.out.print(matrix[i][j] + " ");
          //    }
          //    System.out.println();
@@ -149,21 +149,21 @@
 
          // print diagonal matrix
 
-//         public class Practice1{
+  //       public class Practice1{
   //  public static void main(String[] args) {
-      // int [][] matrix = {
-      //    {1, 2, 3},
-      //    {4, 5, 6},
-      //    {7, 8, 9}
-      // };
+  //     int [][] matrix = {
+  //        {1, 2, 3},
+  //        {4, 5, 6},
+  //        {7, 8, 9}
+  //     };
 
-      // int n = matrix.length;
+  //     int n = matrix.length;
 
-      // System.err.println("Main Diagonal:");
-      // for(int i = 0; i<n; i++) {
+  //     System.err.println("Main Diagonal:");
+  //     for(int i = 0; i<n; i++) {
 
-      // System.out.print(matrix[i][i] + " ");
-      // }
+  //     System.out.print(matrix[i][i] + " ");
+  //     }
       // System.out.println();
 
       // System.out.println("secondary Diagonal:");
@@ -175,31 +175,31 @@
 
 
 
-      //print Sanke pattern
-   //   public class Practice1{
-   //  public static void main(String[] args) {
+    //  print Sanke pattern
+     public class Practice1{
+    public static void main(String[] args) {
       
-   //    }
-   //          System.out.println();
-   //       }
-   //       int[][] matrix = {
-   //       {1, 2, 3, 4},
-   //       {5, 6, 7, 8},
-   //       {9, 10, 11, 12}
-   //    };
-   //    int rows = matrix.length;
-   //    int cols = matrix[0].length;
+      }
+            System.out.println();
+         }
+         int[][] matrix = {
+         {1, 2, 3, 4},
+         {5, 6, 7, 8},
+         {9, 10, 11, 12}
+      };
+      int rows = matrix.length;
+      int cols = matrix[0].length;
 
-   //    for(int i = 0; i < rows; i++){
-   //       if(i % 2 == 0){
-   //          for(int j = 0; j < cols; j++ ){
-   //          System.out.print(matrix[i][j] + " ");
-   //       }
+      for(int i = 0; i < rows; i++){
+         if(i % 2 == 0){
+            for(int j = 0; j < cols; j++ ){
+            System.out.print(matrix[i][j] + " ");
+         }
          
-   //       } else {
-   //          for(int j = cols - 1; j >= 0; j--){
-   //          System.out.print(matrix[i][j] + " ");
-   //       }
+         } else {
+            for(int j = cols - 1; j >= 0; j--){
+            System.out.print(matrix[i][j] + " ");
+         }
 
    // Boundary Traversal
 
@@ -270,8 +270,8 @@
    //             }
    //  
    
-   public class Practice1{
-     public static void main(String[] args) {
+  //  public class Practice1{
+  //    public static void main(String[] args) {
        }
       }
       
