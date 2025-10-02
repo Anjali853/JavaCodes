@@ -1,8 +1,5 @@
-import java.util.*;
-
-public class Strings {    
-
-    public static void main(String args[]) {
+public class Strings {
+     public static void main(String args[]) {
         //concatenation
         String firstName = "anjali";
         String lastName = "choudhary";

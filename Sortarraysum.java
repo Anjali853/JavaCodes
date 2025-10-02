@@ -4,7 +4,7 @@ import java.util.Collections;
 public class Sortarraysum{
     public static void main(String[] args) {
         int n =5;
-        //int arr[]={-4,6,0,3,4,-8}
+        // int arr[]={-4,6,0,3,4,-8}
         ArrayList<Integer>arr=new ArrayList<>();
         arr.add(-4);
         arr.add(6);

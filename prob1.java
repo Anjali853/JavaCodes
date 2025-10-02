@@ -1,4 +1,4 @@
-    import java.util.*;
+import java.util.*;
 
 public class prob1 {
 public static void main (String[]args){
@@ -8,16 +8,18 @@ public static void main (String[]args){
     int[] arr  = new int[n]
     int even = 0, odd =0;
 
-    System.out.println("Enter elements")
+    System.out.println("Enter elements");
     for (int i=0; i<n; i++){
         arr[i] = sc nextInt();
-        if (arr[i] % 2==0)
+        if (arr[i] % 2==0){
+            
+        }
         
     }
-    System.our.printin() 
+    System.our.printin();
 }
 
 }
 
     
-}
+
