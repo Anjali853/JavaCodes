@@ -22,6 +22,21 @@ public class Basic {
         //     System.err.println("" + num3);
         //     num1 = num2; num2 = num3;
        // }
+
+
+       String s = "All izz well  ";
+       int count = 0;
+       for (int i = s.length()-1; i>=0; i--){
+        if(s.charAt(i) != ' ')
+        {
+            count++;
+        }
+        else if (s.charAt(i)== ' ' && count != 0){
+            break;
+        }
+        System.out.println("Lenth of last word is " + count);
+       }
+
     }
     
 }
