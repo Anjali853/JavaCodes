@@ -99,14 +99,27 @@ public class Basic {
 //     sum = sum + i;
 // }
 // System.out.println("Sum = " + sum);
-int i = 0;
-int sum = 0;
-while (i <= 10) {
-    sum += i;
-    i++;
+// int i = 0;
+// int sum = 0;
+// while (i <= 10) {
+//     sum += i;
+//     i++;
     
-}
-System.out.println(sum);
+// }
+// System.out.println(sum);
+
+
+
+
+
+//sort array
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter array");
+
+
+
+
    }
+
     
-}
+ }

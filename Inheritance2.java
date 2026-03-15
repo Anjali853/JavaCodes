@@ -2,8 +2,8 @@ public class Inheritance2{
     public static void main(String[] args) {
         rabbit obj. =new rabbit();
         obj.cry();
-        obj.fight();
-        obj.rabbit();
+        obj.fight;
+        obj.rabbit;
         
     }
 }
