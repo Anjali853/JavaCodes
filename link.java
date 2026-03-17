@@ -1,4 +1,7 @@
+import javax.swing.ScrollPaneLayout;
+
 public class link{
+    //mid of the list
     Node head;
     static class Node {
         String data;
@@ -21,6 +24,7 @@ public void addFirst(String data){
     head = newNode;
 }
 
+
 public void addLast(String data){
     Node newNode = new Node(data);
     if(head == null) {
@@ -35,6 +39,42 @@ public void addLast(String data){
 currNode.next = newNode;
 
 }
+
+
+public void reverseList(){
+    Node Curr = head;
+    Node Prev = null;
+    while(Curr != null){
+        Node nextNode = Curr.next;
+        Curr.next = Prev;
+        Prev = Curr;
+        Curr = nextNode;
+    }
+    head = Prev;
+    }
+
+    void middle(){
+        Node Slow = head;
+        Node Fast = head;
+        while (Slow.next != null && Fast.next !=null) {
+            Slow = Slow.next;
+            Fast = Fast.next.next;
+            
+        }
+        System.out.println(Slow.data);
+    }
+
+    void cycle(){
+         Node Slow = head;
+        Node Fast = head;
+        while (Fast.next != null && Fast.next !=null) {
+            Slow = Slow.next;
+            if(Fast == Slow){
+            System.out.println("Has cycle");
+            }
+    }
+    System.out.println("not Cycle");
+
 
 public void printList(){
     if(head ==null){
@@ -56,6 +96,7 @@ public void printList(){
         link list = new link(); 
         list.addFirst("a");
         list.addLast("is"); 
+        list.reverseList();
         list.printList();
 
 

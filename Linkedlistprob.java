@@ -13,7 +13,6 @@ public class Linkedlistprob{
         if(head.next == null) {
             return null;
         }
-        //size
         int size = 0;
         ListNode curr = head;
         while(curr != null){
@@ -22,8 +21,7 @@ public class Linkedlistprob{
         }
 
         if(n == size){
-            return head.next;
-        }
+            return head.next;        }
         int indexToSearch = size - n;
         ListNode prev = head;
         int i = 1;
