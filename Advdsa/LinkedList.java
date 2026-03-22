@@ -2,10 +2,12 @@ class Node {
     int data;
     Node next;
 
-    Node(int data) {
+    Node(t data) {
         this.data = data;
         this.next = null;
     }
+
+    void mid
 }
 
 public class LinkedList {
