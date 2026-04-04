@@ -1,4 +1,7 @@
 public class StackClass {
+
+
+    // Stack using Linked List
     static class Node{
         int data;
         Node next;
