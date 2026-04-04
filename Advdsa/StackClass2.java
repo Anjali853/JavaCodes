@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class StackClass2 {
+    // Stack using ArrayList
      static class Stack{
          static ArrayList<Integer> list = new ArrayList<>();
         public static boolean isEmpty(){
