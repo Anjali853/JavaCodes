@@ -1,30 +1,21 @@
 import java.util.Stack;
 
-public class prrb1 {
+public class prrb1{
     public static void main(String[] args) {
-        String s = "({[]})";
-        System.out.println(isValid(s));
-        
-    }
-   
-    public static boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
+        String s= "({[]})";
+        Stack<Character> st = new Stack<>();
+        for(char ch :s.toCharArray()){
+            if(ch == '(' || ch == '{' || ch == '['){
+                st.push(ch);
 
-        for (char c : s.toCharArray()) {
-            if (c == '(' || c == '{' || c == '[') {
-                stack.push(c);
-            } else {
-                if (stack.isEmpty()) {
-                    return false;
-                }
-                char top = stack.pop();
-                if ((c == ')' && top != '(') ||
-                    (c == '}' && top != '{') ||
-                    (c == ']' && top != '[')) {
-                    return false;
+            }else{
+                if(st.isEmpty()){
+                    System.out.println("false");
+                }else{
+                    st.pop();
                 }
             }
         }
-        return stack.isEmpty();
     }
+
 }
