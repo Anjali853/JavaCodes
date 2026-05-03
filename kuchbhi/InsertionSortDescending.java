@@ -1,0 +1,31 @@
+package kuchbhi;
+import java.util.Arrays;
+
+
+public class InsertionSortDescending {
+    public static void insertionSortDescending(int[] A){
+        int n = A.length;
+        for(int j=1; j<n; j++){
+            int key =A[j];
+            int i = j - 1;
+             while (i >= 0 && A[i] < key) {
+                A[i + 1] = A[i];
+                i = i - 1;
+                
+             }
+             A[i + 1] = key;
+        }
+    }
+    public static void main(String[] args) {
+        int[] arr = {12,11, 13, 5, 6};
+
+        System.out.println("Before sorting");
+        System.out.println(Arrays.toString(arr));
+
+        insertionSortDescending(arr);
+
+        System.out.println("After sorting");
+        System.out.println(Arrays.toString(arr)); 
+    }
+    
+}
